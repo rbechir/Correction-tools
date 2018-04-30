@@ -1,10 +1,5 @@
 # Correction-tools
 
-Check headers:
-
-grep "[Bb]y" **/*.[ch] | grep -v login
-
-
 Check malloc :
 
 python mc.py EXE_FILE [arg]
