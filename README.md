@@ -1,5 +1,10 @@
 # Correction-tools
 
+NOT BY ME : mc.py
+            files_push_swap/analyser.sh
+            files_push_swap/visu
+
+
 Check malloc :
 
 python mc.py EXE_FILE [arg]
