@@ -1,7 +1,9 @@
 # Correction-tools
 
 NOT BY ME : mc.py
+
             files_push_swap/analyser.sh
+            
             files_push_swap/visu
 
 
