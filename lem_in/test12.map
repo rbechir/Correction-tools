@@ -1,0 +1,4 @@
+#cas d'erreur : mauvaises coordonnees
+1999999
+	Ls 2147483648 1
+s 1 1

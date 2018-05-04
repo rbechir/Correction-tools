@@ -1,0 +1,4 @@
+#cas d'erreur : pas assez de donnees
+42
+	Ls -0002147483648 1
+s 1 1

@@ -1,0 +1,4 @@
+#cas d'erreur : mauvaises coordonnees
+42
+s 1 -2147483649
+e 2 2

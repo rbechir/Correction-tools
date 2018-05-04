@@ -1,0 +1,8 @@
+#cas d'erreur : room deja prise
+42
+##start
+s 1 1
+##end
+e 2 2
+e 1 1
+e-s

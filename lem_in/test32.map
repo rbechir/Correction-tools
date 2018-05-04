@@ -1,0 +1,6 @@
+#cas d'erreur : end manquant
+42
+##start
+s 1 1
+e 2 2
+s-e

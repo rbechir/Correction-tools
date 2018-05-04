@@ -1,0 +1,8 @@
+#cas d'erreur : aucun
+42
+##start
+##end
+s 1 1
+##start
+e 2 2
+s-e

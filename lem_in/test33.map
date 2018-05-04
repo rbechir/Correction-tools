@@ -1,0 +1,6 @@
+#cas d'erreur : start manquant
+42
+s 1 1
+##end
+e 2 2
+s-e

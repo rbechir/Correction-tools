@@ -1,0 +1,7 @@
+#cas d'erreur : double start sans end
+42
+##start
+s 1 1
+##start
+e 2 2
+s-e
