@@ -1,3 +1,4 @@
+echo "\n***** TEST LEAKS *****"
 for ((ARG=1; ARG <= 63; ARG+=1))
 do
 	echo "----- Test $ARG -----"
