@@ -1,5 +1,5 @@
 echo "\n***** TESTS *****"
-for ((ARG=1; ARG <= 63; ARG+=1))
+for ((ARG=1; ARG <= 64; ARG+=1))
 do
 	echo "\n----- Test $ARG -----"
 	cat Correction-tools/files_lem_in/test$ARG.map
