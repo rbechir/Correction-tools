@@ -1,4 +1,8 @@
 #cas d'erreur : mauvaises coordonnees
-1999999
+42
 	Ls 2147483648 1
+##start
 s 1 1
+##end
+e 2 2
+s-e
