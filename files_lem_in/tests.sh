@@ -6,4 +6,3 @@ do
 	echo "Result =>"
 	./lem-in < Correction-tools/files_lem_in/test$ARG.map
 done
-rm -rf .testtest .testtesttest lem-in.dSYM
