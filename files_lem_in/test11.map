@@ -1,3 +1,8 @@
 #cas d'erreur : mauvais nom de salle
-1999999
+42
   Ls 1 1
+##start
+s 1 1
+##end
+e 2 2
+s-e
