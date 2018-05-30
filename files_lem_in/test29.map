@@ -1,4 +1,7 @@
 #cas d'erreur : coordonnees manquantes
 42
+##start
 s 1
+##end
 e 2 2
+s-e
