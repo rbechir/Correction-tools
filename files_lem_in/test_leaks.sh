@@ -1,6 +1,6 @@
 echo "\n***** TEST LEAKS *****"
 ((ARG=1))
-for file in maps/*
+for file in Correction-tools/files_lem_in/maps/*
 do
 	echo "----- Test $ARG/248 -----"
 	valgrind --log-file=".testtesttest" ./lem-in < $file >> .testtest
