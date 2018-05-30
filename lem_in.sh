@@ -1,3 +1,4 @@
+make
 cp Correction-tools/basic_test.sh .
 zsh basic_test.sh
 rm basic_test.sh
