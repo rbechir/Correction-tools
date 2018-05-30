@@ -23,3 +23,4 @@
 * mc.py
 * files_push_swap/analyser.sh
 * files_push_swap/visu
+* files_lem_in/_maps/
