@@ -1,4 +1,4 @@
-$ARG = 66
+((ARG = 66))
 for file in _maps/*
 do
 	echo "----- Test $ARG -----"
