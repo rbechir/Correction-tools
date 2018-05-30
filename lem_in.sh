@@ -8,7 +8,7 @@ rm test_leaks.sh
 cp Correction-tools/files_lem_in/tests.sh .
 zsh tests.sh
 rm tests.sh
-cp Correction-tools/files_lem_in/_maps .
+cp -r Correction-tools/files_lem_in/_maps .
 cp _maps/run.sh .
 sh run.sh
 rm -rf _maps
