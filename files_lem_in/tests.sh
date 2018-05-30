@@ -23,4 +23,4 @@ echo "\nTest multipath avancé : (32/32/51/52)"
 ./lem-in < Correction-tools/files_lem_in/maps_multi/test_real_multi4.map | wc -l
 ./lem-in < Correction-tools/files_lem_in/maps_multi/test_real_multi42.map | wc -l
 ./lem-in < Correction-tools/files_lem_in/maps_multi/test_real_multi43.map | wc -l
-echo "/n"
+echo "\n"
