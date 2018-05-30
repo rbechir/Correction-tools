@@ -1,4 +1,7 @@
 #cas d'erreur : coordonnees non valides
 42
+##start
 s g 1
+##end
 e 2 2
+s-e
