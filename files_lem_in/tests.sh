@@ -3,9 +3,9 @@ for ((ARG=1; ARG <= 65; ARG+=1))
 do
 	echo "----- Test $ARG -----"
 	echo "\n----- Test $ARG -----" >> trace
-	cat Correction-tools/files_lem_in/test$ARG.map >> trace
+	cat Correction-tools/files_lem_in/maps/test$ARG.map >> trace
 	echo "Result =>" >> trace
-	./lem-in < Correction-tools/files_lem_in/test$ARG.map >> trace 2>&1
+	./lem-in < Correction-tools/files_lem_in/maps/test$ARG.map >> trace 2>&1
 done
 echo "\nTest multipath basique : (30/31/39/40)"
 ./lem-in < Correction-tools/files_lem_in/test_sujet3.map | wc -l
