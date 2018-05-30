@@ -6,10 +6,10 @@ echo "\n***** TESTS *****"
 ((ARG=1))
 for file in Correction-tools/files_lem_in/maps/*
 do
-	echo "----- Test $ARG/248 -----"
-	echo "\n----- Test $ARG/248 -----" >> trace
+	echo "----- Test $ARG/247 -----"
+	echo "\n----- Test $ARG/247 -----" >> trace
 	cat $file >> trace
-	echo "** Result **" >> trace
+	echo "\n** Result **" >> trace
 	./lem-in < $file >> trace 2>&1
 	((ARG++))
 done
