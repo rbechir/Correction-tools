@@ -1,11 +1,17 @@
+if [ -e trace ]
+then
+	rm trace
+fi
 echo "\n***** TESTS *****"
-for ((ARG=1; ARG <= 65; ARG+=1))
+((ARG=1))
+for file in maps/*
 do
-	echo "----- Test $ARG -----"
-	echo "\n----- Test $ARG -----" >> trace
-	cat Correction-tools/files_lem_in/maps/test$ARG.map >> trace
-	echo "Result =>" >> trace
-	./lem-in < Correction-tools/files_lem_in/maps/test$ARG.map >> trace 2>&1
+	echo "----- Test $ARG/248 -----"
+	echo "\n----- Test $ARG/248 -----" >> trace
+	cat $file >> trace
+	echo "** Result **" >> trace
+	./lem-in < $file >> trace 2>&1
+	((ARG++))
 done
 echo "\nTest multipath basique : (30/31/39/40)"
 ./lem-in < Correction-tools/files_lem_in/maps_multi/test_sujet3.map | wc -l
