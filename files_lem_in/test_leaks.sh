@@ -7,4 +7,5 @@ do
 	grep -e "definitely lost: " -e "indirectly lost: " ".testtesttest" | grep -v " 0 b"
 	((ARG++))
 done
+echo "\n"
 rm -rf .testtest .testtesttest lem-in.dSYM
