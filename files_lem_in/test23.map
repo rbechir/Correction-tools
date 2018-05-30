@@ -1,4 +1,7 @@
-#cas d'erreur : pas assez de donnees
+#cas d'erreur : aucun
 42
+##start
 s 1 +0002147483647
+##end
 e 2 2
+s-e
