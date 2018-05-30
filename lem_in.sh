@@ -16,3 +16,4 @@ rm run.sh
 cp Correction-tools/files_lem_in/tests.sh .
 zsh tests.sh
 rm tests.sh
+open trace
