@@ -119,7 +119,7 @@ grep -e "definitely lost: " -e "indirectly lost: " ".testtesttest" | grep -v " 0
 echo "----- Test push_swap 16/ -----"
 valgrind --log-file=".testtesttest" --leak-check=full ./push_swap fg >> .testtest
 grep -e "definitely lost: " -e "indirectly lost: " ".testtesttest" | grep -v " 0 b"
-rm -rf .testtest .testtesttest checker.dSYM push_swap.dSYM
 echo "----- Test push_swap 17/ -----"
 valgrind --log-file=".testtesttest" --leak-check=full ./checker 2-3 >> .testtest
 grep -e "definitely lost: " -e "indirectly lost: " ".testtesttest" | grep -v " 0 b"
+rm -rf .testtest .testtesttest checker.dSYM push_swap.dSYM
