@@ -4,7 +4,7 @@ then
 fi
 echo "\n***** TESTS *****"
 ((ARG=1))
-for file in maps/*
+for file in Correction-tools/files_lem_in/maps/*
 do
 	echo "----- Test $ARG/248 -----"
 	echo "\n----- Test $ARG/248 -----" >> trace
