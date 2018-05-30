@@ -1,7 +1,7 @@
 echo "\n***** TESTS *****"
 for ((ARG=1; ARG <= 65; ARG+=1))
 do
-	echo "\n----- Test $ARG -----"
+	echo "----- Test $ARG -----"
 	echo "\n----- Test $ARG -----" >> trace
 	cat Correction-tools/files_lem_in/test$ARG.map >> trace
 	echo "Result =>" >> trace
