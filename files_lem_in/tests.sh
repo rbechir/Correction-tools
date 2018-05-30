@@ -9,5 +9,7 @@ do
 done
 echo "\nTest multipath basique : "
 ./lem-in < Correction-tools/files_lem_in/test_sujet3.map | wc -l
+./lem-in < Correction-tools/files_lem_in/test_sujet4.map | wc -l
 echo "\nTest multipath avancé : "
-./lem-in < Correction-tools/files_lem_in/test_real_multi.map | wc -l
+./lem-in < Correction-tools/files_lem_in/test_real_multi3.map | wc -l
+./lem-in < Correction-tools/files_lem_in/test_real_multi4.map | wc -l
