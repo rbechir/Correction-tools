@@ -1,10 +1,10 @@
 # Correction-tools
 
-### Check push_swap : (need valgrind, see below if necessary)
+### Check push_swap : (need valgrind)
 * cp Correction-tools/push_swap.sh .
 * sh push_swap.sh
 
-### Check lem_in : (need valgrind, see below if necessary)
+### Check lem_in : (need valgrind)
 * cp Correction-tools/lem_in.sh .
 * sh lem_in.sh
 
@@ -15,11 +15,10 @@
 * otool -tVj EXE_FILE.infected | grep @malloc -a40
 
 ### Check leaks :
-* rm -rf $HOME/.brew && git clone --depth=1 https://github.com/Homebrew/brew $HOME/.brew && export PATH=$HOME/.brew/bin:$PATH && brew update && echo "export PATH=$HOME/.brew/bin:$PATH" >> ~/.zshrc
-* brew install valgrind
 * valgrind  --leak-check=full ./EXE_FILE [arg]
 
 ### NOT BY ME :
 * mc.py
 * files_push_swap/analyser.sh
 * files_push_swap/visu
+* install_valgrind.sh
