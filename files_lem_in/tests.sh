@@ -7,7 +7,7 @@ echo "\n***** TESTS *****"
 for file in Correction-tools/files_lem_in/maps/*
 do
 	echo "\rTest $ARG/247 \c"
-	echo "\n----- Test $ARG/247 -----" >> trace
+	echo "\n----- Test $ARG/248 -----" >> trace
 	cat $file >> trace
 	echo "\n** Result **" >> trace
 	./lem-in < $file >> trace 2>&1
